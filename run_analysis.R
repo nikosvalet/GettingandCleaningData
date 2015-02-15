@@ -16,25 +16,27 @@
 
 # unzip(zipdata,exdir="./CourseProjectData")
 
+# setwd("./CourseProjectData")
+
 ## Datasets
 
 ## Test Dataset
 
-X_test <- read.table("./CourseProjectData/UCI HAR Dataset/test/X_test.txt")
-y_test <- read.table("./CourseProjectData/UCI HAR Dataset/test/y_test.txt")
-subject_test <- read.table("./CourseProjectData/UCI HAR Dataset/test/subject_test.txt")
+X_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
+y_test <- read.table("./UCI HAR Dataset/test/y_test.txt")
+subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 
 ## Train Dataset
 
 
-X_train <- read.table("./CourseProjectData/UCI HAR Dataset/train/X_train.txt")
-y_train <- read.table("./CourseProjectData/UCI HAR Dataset/train/y_train.txt")
-subject_train <- read.table("./CourseProjectData/UCI HAR Dataset/train/subject_train.txt")
+X_train <- read.table("./UCI HAR Dataset/train/X_train.txt")
+y_train <- read.table("./UCI HAR Dataset/train/y_train.txt")
+subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 
 ## Labels
 
-features <- read.table("./CourseProjectData/UCI HAR Dataset/features.txt")
-activity_labels <- read.table("./CourseProjectData/UCI HAR Dataset/activity_labels.txt")
+features <- read.table("./UCI HAR Dataset/features.txt")
+activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
 
 ## Part 1 : Create a Dataset with all data 
 #  by merging train and test sets
