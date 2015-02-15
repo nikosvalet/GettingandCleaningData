@@ -1,0 +1,26 @@
+Definition of the variables as follows : 
+
+X_test  = data frame for importing X_test.txt
+y_test = data frame to import y_test.txt
+subject_test = data frame to import source_test.txt
+
+
+X_train  = data frame for importing X_train.txt
+y_train = data frame to import y_train.txt
+subject_train = data frame to import source_train.txt
+
+features = data frame to import features.txt
+activity_labels = data frame to import activity_labels.txt
+
+C_X_test = data frame that adds subject and activity columns to the test data
+C_X_train = data frame that adds subject and activity columns to the train data
+
+Dataset = the complete set of data (test + train)
+
+Extracet_Dataset = the subset of Dataset where columns contain "mean" or "std" in their label
+
+Activity_names = temporary vector for grep function
+
+Tidy = temporary data frame from group_by function
+
+Tidy_Data_Set = the processed tidy data set asked by Course Project
